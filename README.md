@@ -8,7 +8,7 @@ Open `src/index.html` in a browser, or serve the repository root with any static
 
 ## GitHub Pages
 
-In the repository settings, choose **Deploy from a branch**, select `main` and the `/src` folder. The site uses relative asset paths and works at the repository's GitHub Pages subpath.
+GitHub Pages is configured to build with **GitHub Actions**. The workflow in `.github/workflows/pages.yml` publishes the contents of `src/` as the site root when changes are pushed to `main`, and can also be started manually from the Actions tab. The site uses relative asset paths and works at the repository's GitHub Pages subpath.
 
 ## Topics
 
